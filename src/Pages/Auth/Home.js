@@ -1,6 +1,6 @@
 import Cards from 'Components/Cards'
 import React from 'react'
-import img from '/projects/coffee-shop/src/Assets/Capture.PNG'
+import img from '../../Assets/Capture.png'
 import { Link } from 'react-router-dom'
 import { useEffect } from 'react'
 import Header from 'Components/Header'
