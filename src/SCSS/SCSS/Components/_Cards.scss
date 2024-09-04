@@ -1,0 +1,22 @@
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+//-----Cards-----//
+.card{
+    width: 18rem;
+   
+}
+.card-img-top{
+    width: 100%;
+    height: 250px;
+}
+.btn{
+    background-color: blanchedalmond;
+    color: #c24244;
+}
+.btn:hover{
+    color: #c24244;
+}

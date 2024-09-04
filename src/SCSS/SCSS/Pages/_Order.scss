@@ -1,0 +1,54 @@
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+
+  h2 {
+    color: #c24244;
+  }
+
+  .contact-form {
+    .form-group {
+      margin-bottom: 1rem;
+
+
+      .invalid-feedback {
+        color: #c24244;
+      }
+    }
+
+    button {
+      background-color: #c24244;
+      border: none;
+
+      &:hover {
+        background-color: darken(#c24244, 10%);
+      }
+    }
+  }
+
+  .contact-info {
+    margin-top: 40px;
+
+    .contact-link {
+      color: #c24244;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .schedule {
+    margin-top: 30px;
+
+    h3 {
+      color: #c24244;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+  }
+}

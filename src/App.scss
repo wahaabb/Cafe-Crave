@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+h1{
+    color: #c24244;
+}
+// -------------- Components --------------
+@import './SCSS/SCSS/Components/bootstrap';
+@import './SCSS/SCSS/Components/Header';
+@import './SCSS/SCSS/Components/Cards';
+@import './SCSS/SCSS/Components/Loader';
+@import './SCSS/SCSS/Components/Footer';
+// -------------- Auth --------------
+@import './SCSS/SCSS/Pages/Home';
+@import './SCSS/SCSS/Pages/Order';
+@import './SCSS/SCSS/Pages/Contact';
